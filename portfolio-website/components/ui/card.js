@@ -1,5 +1,5 @@
-export function Card({ children, className }) {
-  return <div className={`rounded-lg bg-white ${className}`}>{children}</div>;
+export function Card({ children, className, onClick, ...props }) {
+  return <div className={`rounded-lg bg-white ${className}`} onClick={onClick} {...props}>{children}</div>;
 }
 
 export function CardContent({ children, className }) {
