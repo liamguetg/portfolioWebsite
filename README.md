@@ -1,2 +1,2 @@
-*Porject still in construction*
-Portfolio Webiste to display my projects 
+*Project still in construction*
+Portfolio Webiste to display my coding projects 
