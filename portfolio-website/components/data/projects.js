@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    id: "treasure-hunt",
+    title: "Treasure Hunt! RPG",
+    imageSrc: "/images/TreasureHunt_screenshot.png",
+    imageAlt: "Treasure Hunt RPG Screenshot",
+    highlights: ["Java-based GUI RPG", "JSON persistence", "JUnit testing"],
+    githubUrl: "https://github.com/liamguetg/TreasureHuntGame",
+    additionalImages: ["Additional Screenshot 1", "Additional Screenshot 2"],
+    additionalDetails: ["Blank detail 1", "Blank detail 2", "Blank detail 3", "Blank detail 4"],
+  },
+  {
+    id: "neo-classifier",
+    title: "Near Earth Object Classifier",
+    imageSrc: "/images/NeoPrediction_screenshot.png",
+    imageAlt: "Near Earth Object Classifier Screenshot",
+    highlights: ["Built with R & KNN", "88% accuracy", "Hazardous object classification"],
+    githubUrl: "https://github.com/liamguetg/NEO-predictive-modelling",
+    additionalImages: ["Data Visualization", "Model Results"],
+    additionalDetails: ["Blank detail 1", "Blank detail 2", "Blank detail 3", "Blank detail 4"],
+  },
+  {
+    id: "game-of-life",
+    title: "Conway's Game of Life",
+    imageSrc: "/images/GameOfLife_screenshot.png",
+    imageAlt: "Conway's Game of Life Screenshot",
+    highlights: ["Python console-based", "OOP design", "User interactivity"],
+    githubUrl: "https://github.com/liamguetg/GameOfLife",
+    additionalImages: ["Pattern Examples", "Code Structure"],
+    additionalDetails: ["Blank detail 1", "Blank detail 2", "Blank detail 3", "Blank detail 4"],
+  },
+];
