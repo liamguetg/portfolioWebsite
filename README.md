@@ -4,7 +4,7 @@ Personal portfolio site built with Next.js and Tailwind CSS to showcase software
 
 ## Purpose
 
-- Present selected projects with screenshots, summaries, and GitHub links.
+- Present selected projects with screenshots, summaries, GitHub links, and optional **Live project** links to hosted demos.
 - Provide a clean single-page experience with About, Projects, and Contact sections.
 - Serve as a central, easy-to-update portfolio for applications and networking.
 
@@ -50,6 +50,8 @@ Project data is centralized in `portfolio-website/components/data/projects.js`.
    - `imageAlt`
    - `highlights` (array of short bullets)
    - `githubUrl`
+   - `liveUrl` (your deployed demo; use a placeholder like `https://example.com` until it is ready)
+   - `liveCredentialNote` (optional string, e.g. public demo login instructions)
    - `additionalImages` (labels/placeholders)
    - `additionalDetails` (extra bullets)
 2. Add the screenshot file to `portfolio-website/public/images/`.
