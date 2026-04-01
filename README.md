@@ -10,15 +10,23 @@ Personal portfolio site built with Next.js and Tailwind CSS to showcase software
 
 ## Setup and Run
 
-From the repository root:
+First, run the development server:
 
 ```bash
-cd portfolio-website
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 Useful scripts (run inside `portfolio-website`):
 
@@ -39,20 +47,4 @@ npm run start  # serve production build
 - If deploying elsewhere, ensure Node.js version is compatible with Next.js 15.
 - Static assets are served from `portfolio-website/public`.
 
-## How to Add New Projects
 
-Project data is centralized in `portfolio-website/components/data/projects.js`.
-
-1. Add a new object to the exported `projects` array with:
-   - `id` (unique string)
-   - `title`
-   - `imageSrc` (path under `/public`, e.g. `/images/my-shot.png`)
-   - `imageAlt`
-   - `highlights` (array of short bullets)
-   - `githubUrl`
-   - `liveUrl` (your deployed demo; use a placeholder like `https://example.com` until it is ready)
-   - `liveCredentialNote` (optional string, e.g. public demo login instructions)
-   - `additionalImages` (labels/placeholders)
-   - `additionalDetails` (extra bullets)
-2. Add the screenshot file to `portfolio-website/public/images/`.
-3. Run `npm run lint` and `npm run dev` to verify rendering.
