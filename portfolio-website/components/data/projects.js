@@ -87,13 +87,14 @@ export const projects = [
   {
     id: "paceMates",
     title: "Pace Mates",
-    imageSrc: "paceMatesImg.png",
+    imageSrc: "/images/paceMatesImg.png",
     imageAlt: "",
     technologies: ["JavaScript", "HTML", "CSS", "Node.js", "Express", "Full-stack", "oracledb", "SQL", "Relational databases", "PostgreSQL", "AWS EC2", "PM2", "Nginx", "AWS RDS"],
     highlights: [
       "Full-stack course project inspired by Strava; for users to log runs, track route and event data, and view runs from other users",
       "Designed a relational database: normalized relational schemas and linked entities with keys/constraints",
       "Wrote SQL queries, applying relational algebra concepts, to retrieve and manipulate data from the database",
+      "Origonally built with Oracle Database, migrated to PostgreSQL for cost-effectiveness and scalability",
       "Hoted the application on an AWS EC2 (Ubuntu), using AWS RDS for PostgreSQL database management",
     ],
     githubUrl: "https://github.com/liamguetg/PaceMates",
