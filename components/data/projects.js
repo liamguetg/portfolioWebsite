@@ -12,7 +12,7 @@ export const projects = [
       "Used Webswing for web deployment",
       "Containerized with Docker and hosted on AWS ECS Fargate"],
     githubUrl: "https://github.com/liamguetg/TreasureHuntGame",
-    liveUrl: "http://40.176.204.156:8080/",
+    liveUrl: "http://40.176.185.252:8080/",
     liveCredentialNote:
       "The browser demo asks for a username and password. Use username is 'admin' and password is 'pwd' (public demo only—no special access beyond playing the game).",
     additionalImages: ["Additional Screenshot 1", "Additional Screenshot 2"],
@@ -80,7 +80,9 @@ export const projects = [
       "Deployed a modified version on an AWS EC2 instance (Amazon Linux) with the backend managed by PM2 and the frontend served by Nginx.",
     ],
     githubUrl: "https://github.com/liamguetg/CourseQueryAnalytics",
-    liveUrl: "http://100.28.216.175/",
+    liveUrl: "http://3.237.14.20/",
+    // liveUrl: "http://100.28.216.175/",
+
     additionalImages: ["Pattern Examples", "Code Structure"],
     additionalDetails: ["Blank detail 1", "Blank detail 2", "Blank detail 3", "Blank detail 4"],
   },
